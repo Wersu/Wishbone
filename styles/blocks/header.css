@@ -1,0 +1,38 @@
+.header {
+    padding: 20px 35px;
+}
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+}
+.header-nav ul{
+    display: flex;
+}
+
+.header-nav{
+    margin-left: 31px;
+    margin-right: 31px;
+}
+
+.header-nav li + li {
+	margin-left: 12px;
+}
+
+.header-nav a {
+	transition: color 0.2s ease, transform 0.2s ease;
+    font-size: 15px;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.header-nav a:hover {
+	color: #8C5C47;
+    transform: scale(1.2);
+}
+
