@@ -1,27 +1,27 @@
 
-.reeding-house-title {
+.marble-staircase-title {
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-size: 14px;
 }
 
-.reeding-house-text {
+.marble-staircase-text {
     line-height: 24px;
     color: #645C55;
 }
 
-.reeding-house {
+.marble-staircase {
     position: relative;
     width: 100%;
     min-height: 80vh;
     display: flex;
     align-items: center;
-    justify-content: flex-end; 
-    background: url("./../../img/reeding_house.jpg") center/cover no-repeat;
+    justify-content: flex-end;
+    background: url("./../../img/marble_staircase.jpg") center/cover no-repeat;
 }
   
-.reeding-house-content {
+.marble-staircase-content {
     max-width: 300px;
     margin-right: 60px;
     padding: 20px;
