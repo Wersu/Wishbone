@@ -1,0 +1,39 @@
+.prior-clients {
+    padding: 60px 0;
+    background-color: #403E3B;
+}
+.prior-clients-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prior-clients-content {
+    max-width: 460px;
+
+}
+.prior-clients-title {
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #ECE7E4;
+}
+.prior-clients-subtitle {
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.prior-clients-text {
+    font-size: 15px;
+    line-height: 24px;
+    color: #ECE7E4;
+}
+.prior-clients-companies {
+    max-width: 432px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 120px;
+    row-gap: 96px;
+    overflow-wrap: wrap;
+    align-items: center;
+}
