@@ -1,0 +1,42 @@
+.our-process {
+    margin: 100px auto;
+}
+.our-process-title {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #645C55;
+    justify-self: center;
+    text-transform: uppercase;
+}
+.our-process-subtitle {
+    font-size: 39px;
+    line-height: 42px;
+    color: #1B1A1A;
+    justify-self: center;
+    margin-top: 13px;
+    margin-bottom: 47px;
+}
+.how-do-list {
+    display: flex;
+    justify-content: space-around;
+}
+.how-do-item {
+    max-width: 294px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.how-do__title {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.how-do__text {
+    font-size: 15px;
+    line-height: 24px;
+    color: #645C55;
+    text-align: center;
+}
