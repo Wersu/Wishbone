@@ -1,0 +1,25 @@
+
+.reeding-house-title {
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.reeding-house-text {
+    line-height: 24px;
+}
+
+.reeding-house {
+    position: relative;
+    width: 100%;
+    min-height: 100vh; /* Растянуть на всю высоту экрана */
+    display: flex;
+    align-items: center; /* Выравнивание контента по центру */
+    justify-content: flex-end; /* Контент справа */
+    background: url("./../../img/reeding_house.jpg") center/cover no-repeat;
+}
+  
+.reeding-house-content {
+    max-width: 300px;
+    margin-right: 60px;
+    padding: 20px;
+}
