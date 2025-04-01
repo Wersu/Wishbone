@@ -2,12 +2,7 @@
     margin: 100px auto;
 }
 .our-process-title {
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 2px;
-    color: #645C55;
     justify-self: center;
-    text-transform: uppercase;
 }
 .our-process-subtitle {
     font-size: 39px;

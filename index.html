@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/base.css" />
     <!-- Blocks -->
+    <link rel="stylesheet" href="./styles/blocks/title.css" />
     <link rel="stylesheet" href="./styles/blocks/header.css" />
     <link rel="stylesheet" href="./styles/blocks/button.css" />
     <link rel="stylesheet" href="./styles/blocks/hero.css" />
@@ -22,6 +23,7 @@
     <link rel="stylesheet" href="./styles/blocks/our-team.css" />
     <link rel="stylesheet" href="./styles/blocks/get-in-touch.css" />
     <link rel="stylesheet" href="./styles/blocks/footer.css" />
+    <link rel="stylesheet" href="./styles/blocks/avatar.css" />
 </head>
 
 <body>
@@ -48,8 +50,8 @@
         <section class="hero">
             <div class="hero-row">
                 <div class="hero-content">
-                    <h2 class="hero-title">Wishbone+Partners</h2>
-                    <h3 class="hero-subtitle">The home of beautiful architecture.</h3>
+                    <h1 class="hero-title title-section">Wishbone+Partners</h1>
+                    <h2 class="hero-subtitle">The home of beautiful architecture.</h2>
                     <p class="hero-text">We are an architecture firm with a focus on beautiful but functional design. At
                         its heart, we believe design is about usability and accessibility — these are the guiding
                         principles for our work. Read more about our previous projects, our process and our team below.
@@ -83,12 +85,11 @@
                             imperdiet. Nunc ut sem vitae risus tristique posuere.
                         </p>
                     </div>
-                    <div class="about-author">
-                        <img src="img/stephen_collier_avatar.jpg" alt="avatar" class="about-author__avatar" width="84"
-                            height="84">
+                    <div class="about-author avatar">
+                        <img src="img/stephen_collier_avatar.jpg" alt="avatar" class="avatar-img">
                         <div class="about-author-wrapper">
-                            <p class="about-author__name">Stephen Collier</p>
-                            <p class="about-author__position">Senior Partner</p>
+                            <p class="avatar-name">Stephen Collier</p>
+                            <p class="avatar-position">Senior Partner</p>
                         </div>
                     </div>
                 </div>
@@ -96,13 +97,13 @@
         </section>
         <section class="reeding-house">
             <div class="reeding-house-content">
-                <h2 class="reeding-house-title">Reeding House</h1>
-                    <p class="reeding-house-text">Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
+                <h2 class="reeding-house-title title-section">Reeding House</h2>
+                <p class="reeding-house-text">Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
             </div>
         </section>
         <section class="our-process">
             <div class="container">
-                <h2 class="our-process-title">Our process</h2>
+                <h2 class="our-process-title title-section">Our process</h2>
                 <h3 class="our-process-subtitle">How we do what we do.</h3>
                 <ul class="how-do-list">
                     <li class="how-do-item">
@@ -128,15 +129,15 @@
         </section>
         <section class="marble-staircase">
             <div class="marble-staircase-content">
-                <h2 class="marble-staircase-title">The marble staircase</h1>
-                    <p class="marble-staircase-text">Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
+                <h2 class="marble-staircase-title title-section">The marble staircase</h2>
+                <p class="marble-staircase-text">Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
             </div>
         </section>
         <section class="prior-clients">
             <div class="container">
                 <div class="prior-clients-row">
                     <div class="prior-clients-content">
-                        <h2 class="prior-clients-title">prior clients</h2>
+                        <h2 class="prior-clients-title title-section">prior clients</h2>
                         <h3 class="prior-clients-subtitle">Happy customers.</h3>
                         <p class="prior-clients-text">Morbi neque ex, condimentum dapibus congue et, vulputate ut
                             ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus
@@ -153,8 +154,8 @@
         </section>
         <section class="swirling-staircase">
             <div class="swirling-staircase-content">
-                <h2 class="swirling-staircase-title">The swirling staircase</h1>
-                    <p class="swirling-staircase-text">Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
+                <h2 class="swirling-staircase-title title-section">The swirling staircase</h2>
+                <p class="swirling-staircase-text">Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
             </div>
         </section>
         <section class="future-projects">
@@ -197,44 +198,40 @@
                     </div>
                     <div class="our-team-members">
                         <ul class="our-team-list">
-                            <li class="member">
+                            <li class="member avatar">
                                 <img src="img/stephen_collier_avatar.jpg" alt="tephen_collier_avatar"
-                                    class="member-avatar" width="84" height="84">
+                                    class="avatar-img">
                                 <div class="member-wrapper">
-                                    <p class="member__name">Stephen Collier</p>
-                                    <p class="member__position">Senior Partner</p>
+                                    <p class="avatar-name">Stephen Collier</p>
+                                    <p class="avatar-position">Senior Partner</p>
                                 </div>
                             </li>
-                            <li class="member">
-                                <img src="img/nolan_peters_avatar.jpg" alt="nolan_peters_avatar" class="member-avatar"
-                                    width="84" height="84">
+                            <li class="member avatar">
+                                <img src="img/nolan_peters_avatar.jpg" alt="nolan_peters_avatar" class="avatar-img">
                                 <div class="member-wrapper">
                                     <p class="member__name">Nolan Peters</p>
-                                    <p class="member__position">Associate</p>
+                                    <p class="avatar-position">Associate</p>
                                 </div>
                             </li>
-                            <li class="member">
-                                <img src="img/ferris_wonder_avatar.jpg" alt="ferris_wonder_avatar" class="member-avatar"
-                                    width="84" height="84">
+                            <li class="member avatar">
+                                <img src="img/ferris_wonder_avatar.jpg" alt="ferris_wonder_avatar" class="avatar-img">
                                 <div class="member-wrapper">
-                                    <p class="member__name">Ferris Wonder</p>
-                                    <p class="member__position">Associate Partner</p>
+                                    <p class="avatar-name">Ferris Wonder</p>
+                                    <p class="avatar-position">Associate Partner</p>
                                 </div>
                             </li>
-                            <li class="member">
-                                <img src="img/aria_stone_avatar.jpg" alt="aria_stone_avatar" class="member-avatar"
-                                    width="84" height="84">
+                            <li class="member avatar">
+                                <img src="img/aria_stone_avatar.jpg" alt="aria_stone_avatar" class="avatar-img">
                                 <div class="member-wrapper">
-                                    <p class="member__name">Aria Stone</p>
-                                    <p class="member__position">Senior Partner</p>
+                                    <p class="avatar-name">Aria Stone</p>
+                                    <p class="avatar-position">Senior Partner</p>
                                 </div>
                             </li>
-                            <li class="member">
-                                <img src="img/niko_ferry_avatar.jpg" alt="niko_ferry_avatar" class="member-avatar"
-                                    width="84" height="84">
+                            <li class="member avatar">
+                                <img src="img/niko_ferry_avatar.jpg" alt="niko_ferry_avatar" class="avatar-img">
                                 <div class="member-wrapper">
-                                    <p class="member__name">Niko Ferry</p>
-                                    <p class="member__position">Partner</p>
+                                    <p class="avatar-name">Niko Ferry</p>
+                                    <p class="avatar-position">Partner</p>
                                 </div>
                             </li>
 
@@ -247,7 +244,7 @@
             <div class="container">
                 <div class="get-in-touch-row">
                     <div class="get-in-touch-content">
-                        <h2 class="get-in-touch-title">Get in touch</h2>
+                        <h2 class="get-in-touch-title title-section">Get in touch</h2>
                         <h3 class="get-in-touch-subtitle">Think we would be a good fit for your next project?</h3>
                     </div>
                     <a href="" class="get-in-touch-link">Get in touch</a>

@@ -35,24 +35,4 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 36px;
 }
-.member {
-    display: flex;
-    align-items: center;
-}
-.member-avatar {
-}
-.member-wrapper {
-    padding: 30px;
-}
-.member__name {
-    font-size: 17px;
-    line-height: 26px;
-    color: #1B1A1A;
-    margin: 0;
-}
-.member__position {
-    font-size: 14px;
-    line-height: 14px;
-    
-    margin: 0;
-}
+

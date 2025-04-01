@@ -1,0 +1,24 @@
+.avatar {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.avatar-name {
+    margin: 0;
+    color: #1B1A1A;
+    line-height: 26px;
+    font-size: 17px;
+}
+
+.avatar-position {
+    margin: 0;
+    color: #645C55;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.avatar-img {
+    width: 84px;
+    height: 84px;
+}
