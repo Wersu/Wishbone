@@ -25,3 +25,13 @@
     display: flex;
     gap: 20px;
 }
+
+@media (max-width: 550px) {
+	.foooter-row {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: end;
+        gap: 30px;
+    }
+}

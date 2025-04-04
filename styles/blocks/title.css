@@ -5,3 +5,10 @@
     letter-spacing: 2px;
     line-height: 20px;
 }
+
+@media (max-width: 380px) {
+	.title-section {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}  

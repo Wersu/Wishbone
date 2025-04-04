@@ -1,5 +1,4 @@
 .reeding-house-text {
-    line-height: 24px;
     color: #645C55;
 }
 
@@ -17,4 +16,22 @@
     max-width: 300px;
     margin-right: 60px;
     padding: 20px;
+}
+
+@media (max-width: 1000px) {
+	.reeding-house-content {
+        background-color: #E8E8EA;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 410px) {
+	.reeding-house {
+        justify-content: center; 
+        padding: 0 10px;
+    }
+
+    .reeding-house-content {
+        margin-right: 0px;
+    }
 }

@@ -1,5 +1,4 @@
 .swirling-staircase-text {
-    line-height: 24px;
     color: #645C55;
 }
 
@@ -16,4 +15,22 @@
     max-width: 300px;
     margin-left: 60px;
     padding: 20px;
+}
+
+@media (max-width: 930px) {
+	.swirling-staircase-content {
+        background-color: #CCC2B9;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 410px) {
+	.swirling-staircase {
+        justify-content: center; 
+        padding: 0 10px;
+    }
+
+    .swirling-staircase-content {
+        margin-left: 0px;
+    }
 }

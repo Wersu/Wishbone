@@ -21,3 +21,38 @@
     letter-spacing: 0.4px;
     color: #1B1A1A;
 }
+
+@media (max-width: 1300px) {
+	.get-in-touch {
+        padding: 100px 30px;
+    }
+}
+
+@media (max-width: 1000px) {
+	.get-in-touch-subtitle {
+        font-size: 34px;
+        line-height: 38px;
+    }
+}
+
+
+@media (max-width: 770px) {
+	.get-in-touch-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px
+    }
+}
+
+@media (max-width: 535px) {
+	.get-in-touch-subtitle {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .get-in-touch {
+        padding: 70px 10px;
+    }
+}

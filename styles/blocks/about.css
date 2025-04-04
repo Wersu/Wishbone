@@ -14,11 +14,57 @@
     max-width: 493px;
 }
 
-.about-text {
-    line-height: 24px;
-}
-
 
 .about-author {
     margin-top: 18px;
+}
+
+
+@media (max-width: 960px) {
+	.about-row {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 770px) {
+	.about-row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-author {
+        justify-self: center;
+    }
+}
+
+@media (max-width: 570px) {
+	.about-row {
+        padding: 0 15px;
+        gap: 30px
+    }
+
+    .about-text {
+        text-align: justify;
+    }
+}
+
+@media (max-width: 500px) {
+	.about-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .about-row {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 3300px) {
+	.about-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .about-row {
+        margin: 70px auto;
+    }
 }

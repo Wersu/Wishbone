@@ -4,14 +4,14 @@ body {
 	line-height: 24px;
 	color: #403E3B;
 	background-color: #FFFFFF;
+	max-width: 100%;
 }
 
 .container {
 	max-width: 1200px;
-	padding-left: 15px;
-	padding-right: 15px;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 0 15px;
 }
 
 .none {
@@ -37,4 +37,16 @@ body {
         url('fonts/Poppins-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
+
+@media (max-width: 500px) {
+	body {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 380px) {
+	body {
+		line-height: 20px;
+	}
 }

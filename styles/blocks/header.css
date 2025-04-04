@@ -1,5 +1,5 @@
 .header {
-    padding: 20px 35px;
+    padding: 20px 0;
 }
 .header-row {
     display: flex;
@@ -35,4 +35,26 @@
 	color: #8C5C47;
     transform: scale(1.2);
 }
+
+
+@media (max-width: 860px) {
+    .header-nav ul{
+        display: none;
+    }
+}
+
+@media (max-width: 435px) {
+	.header-get-template {
+		display: none;
+
+	}
+}
+
+@media (max-width: 350px) {
+    .header-logo > img{
+        width: 90%;
+        height: auto;
+    }
+}
+
 

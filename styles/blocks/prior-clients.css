@@ -2,28 +2,33 @@
     padding: 60px 0;
     background-color: #403E3B;
 }
+
 .prior-clients-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .prior-clients-content {
     max-width: 460px;
 }
+
 .prior-clients-title {
     color: #ECE7E4;
 }
+
 .prior-clients-subtitle {
     font-size: 32px;
     line-height: 38px;
     color: #FFFFFF;
     margin-bottom: 14px;
 }
+
 .prior-clients-text {
     font-size: 15px;
-    line-height: 24px;
     color: #ECE7E4;
 }
+
 .prior-clients-companies {
     max-width: 432px;
     display: grid;
@@ -32,4 +37,36 @@
     row-gap: 96px;
     overflow-wrap: wrap;
     align-items: center;
+}
+
+@media (max-width: 940px) {
+    .prior-clients-row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .prior-clients-subtitle {
+        font-size: 28px;
+        line-height: 32px;
+        color: #FFFFFF;
+        margin-bottom: 14px;
+    }
+}
+
+@media (max-width: 431px) {
+    .prior-clients-companies {
+        grid-template-columns: 1fr;
+        align-items: center;
+        row-gap: 50px;
+        justify-content: center;
+        justify-items: center;
+    }
+    .prior-clients-companies > img{
+        width: 80%;
+        height: auto;
+    }
 }

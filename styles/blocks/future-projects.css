@@ -2,12 +2,14 @@
     background-color: #F7F7F7;
     padding: 120px 0;
 }
+
 .future-projects-title {
     font-size: 39px;
     line-height: 42px;
     color: #1B1A1A;
     margin-bottom: 15px;
 }
+
 .future-projects-text {
     max-width: 581px;
     font-size: 24px;
@@ -15,14 +17,20 @@
     color: #645C55;
     margin-bottom: 42px;
 }
+
 .future-projects-list {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 375px);
+    column-gap: 18px;
+    row-gap: 30px;
+    justify-content: center;
 }
+
 .project {
     max-width: 375px;
     position: relative;
 }
+
 .project-img {
     z-index: -1;
     width: 100%;
@@ -45,18 +53,20 @@
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #645C55;  
+    color: #645C55;
     left: 40px;
     top: 40px;
 }
+
 .project-title {
     font-size: 23px;
     line-height: 30px;
     left: 40px;
-    top: 58px;   
+    top: 58px;
 }
+
 .project-read-more {
-    max-width: 133px; 
+    max-width: 133px;
     left: 45px;
     bottom: 40px;
 }
@@ -76,4 +86,84 @@
 .project:hover .project-read-more {
     opacity: 1;
     visibility: visible;
+}
+
+@media (max-width: 1206px) {
+    .future-projects {
+        padding: 120px 20px;
+    }
+}
+
+@media (max-width: 852px) {
+    .future-projects-title {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+
+    .future-projects-text {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 660px) {
+
+    .project-city,
+    .project-title,
+    .project-read-more {
+        opacity: 1;
+        visibility: visible;
+        transition: none;
+    }
+}
+
+@media (max-width: 445px) {
+
+    .future-projects {
+        padding: 90px 10px;
+    }
+
+    .future-projects-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .project {
+        max-width: 90%;
+        position: relative;
+
+    }
+
+    .future-projects-title {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+
+    .future-projects-text {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+
+    .project-city {
+        font-size: 12px;
+        line-height: 16px;
+        left: 40px;
+        top: 40px;
+    }
+    
+    .project-title {
+        font-size: 18px;
+        line-height: 20px;
+        left: 40px;
+        top: 58px;
+    }
+     
+
 }

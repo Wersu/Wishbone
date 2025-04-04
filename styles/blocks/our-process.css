@@ -11,10 +11,12 @@
     justify-self: center;
     margin-top: 13px;
     margin-bottom: 47px;
+    text-align: center;
 }
 .how-do-list {
     display: flex;
     justify-content: space-around;
+    gap: 20px
 }
 .how-do-item {
     max-width: 294px;
@@ -34,4 +36,51 @@
     line-height: 24px;
     color: #645C55;
     text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .how-do-item__img {
+        width: 90px;
+        height: auto;
+    }
+	
+}
+
+@media (max-width: 700px) {
+    .how-do-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+	
+}
+
+@media (max-width: 650px) {
+    .our-process-subtitle {
+        font-size: 30px;
+    }
+	
+}
+@media (max-width: 380px) {
+    .our-process-subtitle {
+        font-size: 26px;
+        line-height: 30px;
+
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .our-process {
+        margin: 70px auto;
+    }
+
+    .how-do-item__img {
+        width: 75px;
+        height: auto;
+    }
+	.how-do__title {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
 }

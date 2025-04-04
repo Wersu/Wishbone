@@ -1,5 +1,4 @@
 .marble-staircase-text {
-    line-height: 24px;
     color: #645C55;
 }
 
@@ -17,4 +16,22 @@
     max-width: 300px;
     margin-right: 60px;
     padding: 20px;
+}
+
+@media (max-width: 730px) {
+	.marble-staircase-content {
+        background-color: #EEF0EF;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 410px) {
+	.marble-staircase {
+        justify-content: center; 
+        padding: 0 10px;
+    }
+
+    .marble-staircase-content {
+        margin-right: 0px;
+    }
 }

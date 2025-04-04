@@ -15,7 +15,6 @@
 }
 .our-team-text {
     font-size: 15px;
-    line-height: 24px;
     color: #645C55;
     margin-bottom: 30px;
 }
@@ -36,3 +35,48 @@
     row-gap: 36px;
 }
 
+
+@media (max-width: 950px) {
+	.our-team-row{
+        flex-direction: column;
+    }
+    .our-team-content {
+        margin: 0 auto;
+        max-width: 500px;
+        margin-bottom: 30px;
+        text-align:  center;
+     }
+     .our-team-members {
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+}
+
+@media (max-width: 720px) {
+	
+     .our-team-members {
+        width: 100%;
+        display: flex;
+        justify-content: center; 
+    }
+    .our-team-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 36px;
+    }
+}
+
+@media (max-width: 500px) {
+	
+
+   .our-team-list {
+       row-gap: 20px;
+   }
+
+   .our-team-title {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 14px;
+}
+}
