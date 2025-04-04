@@ -24,6 +24,10 @@ a:active {
 	outline: none;
 }
 
+a:-webkit-any-link {
+	color: inherit;
+}
+
 /* Common */
 
 h1, h2, h3, h4, h5, h6, p {
